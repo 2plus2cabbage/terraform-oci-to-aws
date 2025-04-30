@@ -1,0 +1,10 @@
+tenancy_ocid         = "<your-tenancy-ocid>"      # OCI tenancy OCID, found in OCI Console under Profile
+user_ocid            = "<your-user-ocid>"         # OCI user OCID, found in OCI Console under Profile
+fingerprint          = "<your-fingerprint>"       # Fingerprint of the API key, found in OCI Console under Profile > API Keys
+private_key_path     = "<path-to-private-key>"    # Path to the private key file for the API key
+compartment_ocid     = "<your-compartment-id>"    # OCI compartment ID, found in OCI Console under Identity > Compartments
+region               = "<your-region>"            # OCI region for deployment (e.g., us-ashburn-1)
+environment_name     = "<your-environment-name>"  # Environment name, used in resource naming (e.g., cabbage)
+location             = "<your-location>"          # Location identifier, used in resource naming (e.g., usashburn)
+my_public_ip         = "<your-public-ip>"         # Your public IP for RDP access (e.g., 203.0.113.5/32)
+aws_vpn_ip           = "<aws-vpn-ip>"             # AWS VPN Gateway public IP (e.g., 52.86.55.82)
